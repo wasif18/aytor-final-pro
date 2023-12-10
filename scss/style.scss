@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600;700&family=Roboto:wght@300;400;500;700;900&display=swap');
+// COMMON CSS START
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  // outline: 2px solid red;
+}
+ul,ol{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6,ul,p,span,ol,a{
+  margin: 0;
+  padding: 0;
+}
+// COMMON CSS END
+
+// ROOT START
+@import "./_variable.scss";
+// ROOT END
+
+// mixin start
+@import "./_mixin.scss";
+// mixin end
+body{
+  font-family: $primaryfont;
+  color: $textColorPrimary;
+  position: relative;
+  overflow-x: hidden;
+  background-color: $bgcolorlight;
+}
+// screen mood start
+@import "./screenmood"; 
+// screen mood end 
+
+/* pre load start */
+@import "./_preloader.scss";
+/* pre load end */
+
+// SCROLL UP START
+@import "./_scrolluparrow.scss";
+// SCROLL UP END
+
+// MODAL START
+@import "./_modal.scss";
+// MODAL END
+
+// NAV START
+@import "./_navbar.scss";
+// NAV END
+// ********************* HOME PAGE START / 1st PAGE ********************************
+@import "./_homepage.scss";
+// ********************* HOME PAGE END / 1st PAGE ********************************
+
+// RESPONSIVE DIVICE START
+@import "./responsive.scss" ;
+// RESPONSIVE DIVICE END 
+
+// ********************* COMMON BANNER START ********************************
+@import "./_commonbanner.scss";
+// ********************* COMMON BANNER END ********************************
+
+// ********************* ABOUT US PAGE START / 2nd PAGE ********************************
+@import "./_aboutus.scss";
+// ********************* ABOUT US PAGE END / 2nd PAGE ********************************
+
+// ********************* SHOP PAGE START / 3rd PAGE ********************************
+@import "./_shop.scss";
+// ********************* SHOP PAGE END / 3rd PAGE ********************************
+
+// ********************* SHOP - DETAILS PAGE START / 4TH PAGE ********************************
+@import "./shopdetails.scss";
+// ********************* SHOP - DETAILS PAGE END / 4TH PAGE ********************************
+
+// ********************* COMPARE PAGE START / 5TH PAGE ********************************
+@import "./compare";
+// ********************* COMPARE PAGE END / 5TH PAGE ********************************
+
+// ********************* CART PAGE START / 6TH PAGE ********************************
+@import "./cart";
+// ********************* CART PAGE END / 6TH PAGE ********************************
+
+// ********************* CHECKOUT PAGE START / 7TH PAGE ********************************
+@import "./checkout";
+// ********************* CHECKOUT PAGE END / 7TH PAGE ********************************
+
+// ********************* CONTACT PAGE START / 8TH PAGE ********************************
+@import "./contact";
+// ********************* CONTACT PAGE END / 8TH PAGE ********************************
+
+// ********************* WISHLIST PAGE START / 9TH PAGE ********************************
+@import "./wishlist";
+// ********************* WISHLIST PAGE END / 9TH PAGE ********************************
+
+// ********************* BLOG PAGE START / 10TH PAGE ********************************
+@import "./blog";
+// ********************* BLOG PAGE END / 10TH PAGE ********************************
+
+// ********************* ERROR PAGE START / 11TH PAGE ********************************
+@import "./error";
+// ********************* ERROR PAGE END / 11TH PAGE ********************************
+
+// ************************************** OTHER PAGE FOOTER START ******************************
+
+@import "./_secondfooter.scss";
+
+// ************************************** OTHER PAGE FOOTER END ******************************
